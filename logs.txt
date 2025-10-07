@@ -1,0 +1,8 @@
+2025-10-07 15:44:40 launch 
+2025-10-07 15:44:42 search : shdfhsdf
+2025-10-07 15:44:43 search : sdfhsdfhgsd
+2025-10-07 15:44:43 search : fhsdfhj
+2025-10-07 15:44:43 search : sfdh
+2025-10-07 15:44:44 search : sdfh
+2025-10-07 15:44:44 search : sdfh
+2025-10-07 15:44:44 exit

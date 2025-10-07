@@ -16,7 +16,7 @@ public class SearchEngineLogger {
             Scanner in = new Scanner(System.in);
             FileWriter fileWriter = null;
 
-            fileWriter = new FileWriter("logs.txt");
+            fileWriter = new FileWriter("logs.txt", true);
 
             BufferedWriter bufWriter = new BufferedWriter(fileWriter);
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
@@ -28,6 +28,7 @@ public class SearchEngineLogger {
             while(!done){
                     System.out.println("Please enter you search request (X to exit):");
                     String input = in.nextLine();
+                    date = LocalDateTime.now();
                     if(input.equalsIgnoreCase("X")){
                         done = true;
                         System.out.println("Thank you for using this service");
@@ -40,7 +41,7 @@ public class SearchEngineLogger {
             }
             bufWriter.close();
         } catch (Exception e){
-            System.out.println("Something went worng");
+            System.out.println("Something went wrong");
         }
 
     }
